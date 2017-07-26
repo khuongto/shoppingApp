@@ -9,6 +9,7 @@
           <img  ng-src="{{'img/fk/'+ item.product_image +'.jpg'}}" >
 
           <a class="badge badge-balanced" style="position: absolute;right:0;" >{{item.status}}</a>
+          <input style="color: #000;" ng-model="data_editable.today" type="Date"  placeholder="Date">
 
           <h4> {{item.product_name}} </h4>
           <p>Qty: {{item.item_qty}}  Price: &#8377; {{item.product_price}}</p>

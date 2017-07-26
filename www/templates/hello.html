@@ -1,6 +1,6 @@
 <ion-view style="" class=" " id="page17" title="Hello">
 <ion-content class="has-header" padding="false"  >
-
+      
 
 
 
@@ -9,20 +9,11 @@
 
         <ion-list class=" " >
 
-          <!-- Profile Cover Page -->
-          <div class="profile-nav col-md-3">
-            <div class="panel">
-              <div class="user-heading round">
-                <a href="#">
-                  <img ng-src="{{&apos;img/fk/&apos;+ user_info.photoURL +&apos;.jpg&apos;}}" >
-                </a>
-                <p style="color: #ffffff;">{{user_info.displayName}}</p>
-              </div>
-            </div>
-          </div>
+
 
 
           <label class="item item-input ic-selected">
+            
             <a class="icon icon-right ion-android-call" style="margin-right: 10px;"></a>
             <input style="color: #000;" ng-model="user_extras.telephone" type="text" placeholder="Telephone" >
           </label>
@@ -30,6 +21,11 @@
           <label class="item item-input ic-selected">
             <a class="icon icon-right ion-email" style="margin-right: 10px;"></a>
             <input style="color: #000;" ng-model="data_editable.email" type="email"  placeholder="Email">
+          </label>
+          
+          <label class="item item-input ic-selected">
+            <a class="icon icon-right ion-email" style="margin-right: 10px;"></a>
+            <input style="color: #000;" ng-model="data_editable.today" type="Date"  placeholder="Date">
           </label>
 
           <label class="item item-input ic-selected">
@@ -44,6 +40,7 @@
             <a class="icon icon-right ion-ios-location" style="margin-right: 10px;" ></a>
             Address
             <i  class="icon icon-right ion-android-add-circle" style="font-size: larger ;margin-left: 10px;"></i>
+
           </label>
 
 

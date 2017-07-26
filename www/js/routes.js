@@ -85,6 +85,12 @@ angular.module('app.routes', [])
     controller: 'checkoutCtrl'
   })
 
+  .state('hello', {
+    url: '/page17',
+    templateUrl: 'templates/hello.html',
+    controller: 'helloCtrl'
+  })
+
   .state('tabsController.forgotPassword', {
     url: '/page15',
     views: {
